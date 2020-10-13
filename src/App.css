@@ -1,0 +1,179 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Appp {
+  position: fixed;
+  margin: 0;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("./pics/real.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+}
+
+.Page {
+  margin: 0;
+  width: 90%;
+  height: 500px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.EitherPage {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: inherit;
+  max-height: inherit;
+}
+
+.Right_page {
+  width: 100%;
+  height: inherit;
+  max-height: inherit;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  padding: 20px;
+}
+
+.Right_page:hover {
+  opacity: 0.8;
+}
+
+.LoginHeader {
+  color: white;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+label:hover {
+  opacity: 0.5;
+}
+
+input {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.CenterCheck {
+  width: 50%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.CheckBox {
+  width: 20px;
+  height: 20px;
+  max-height: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.SubmitButton {
+  width: 6em;
+  height: 60px;
+  max-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: blue;
+}
+
+.Person_page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.User_pic {
+  opacity: 0.5;
+}
+
+.User_pic:hover {
+  opacity: 0.8;
+}
+
+.Hidden_tooltip {
+  visibility: visible;
+  z-index: 3;
+}
+
+.Hidden_tooltip:hover {
+  visibility: visible;
+}
+
+.WeatherInfo {
+  width: 50%;
+  height: inherit;
+}
+
+.Search {
+  margin: 20px;
+  margin-top: 50px;
+}
+
+input {
+  height: 50px;
+  font-size: 30px;
+}
+
+.SearchBar {
+  border-radius: 5px 5px;
+  font-size: 16px;
+}
+
+.RealInfo {
+  font-size: 30px;
+}
+
+.RealInfo:hover {
+  opacity: 0.5;
+}
+
+p {
+  margin: 5px;
+}
+
+.HistoricalData {
+  
+}
